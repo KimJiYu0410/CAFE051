@@ -727,7 +727,9 @@ em {
 #footer .ft_wrap {
     display: flex;
     gap: 40px;
-    margin: 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
     line-height: 24px;
 }
 
@@ -755,7 +757,7 @@ em {
 
 .left {
     position: relative;
-    width: 90%;
+    width: 100%;
     min-height: 200px;
     /* 로고가 하단에 올 수 있도록 여유 공간 확보 */
 }
